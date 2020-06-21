@@ -1,0 +1,60 @@
+# kind: Service
+# apiVersion: v1
+# metadata:
+#   name: graphmeql
+# spec:
+#   type: NodePort
+#   ports:
+#     - port: 80
+#       targetPort: 80
+#       protocol: TCP
+#       nodePort: 31000
+#   selector:
+#     app: graphmeql
+# ---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: graphql-client
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: graphql-client
+  template:
+    metadata:
+      labels:
+        app: graphql-client
+    spec:
+      containers:
+        - name: graphql-client
+          image: azurefridayacr.azurecr.io/graphql-client:latest
+          imagePullPolicy: Always
+          readinessProbe:
+            httpGet:
+              port: 8080
+              path: /
+          livenessProbe:
+            httpGet:
+              port: 8080
+              path: /
+          # ports:
+          #   - containerPort: 8080
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-resource-group: AzureFridayAKS
+  name: graphql-client-loadbalancer
+spec:
+  loadBalancerIP: 52.151.245.159
+  type: LoadBalancer
+  selector:
+    app: graphql-client
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
