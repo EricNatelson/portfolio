@@ -93,12 +93,12 @@
     ],
     "skills":[
       {
-        "name":"Spring-Boot",
-        "level":"80%"
-      },
-      {
         "name":"Angular",
         "level":"90%"
+      },
+      {
+        "name":"Spring-Boot",
+        "level":"80%"
       },
       {
         "name":"NodeJS",
@@ -109,7 +109,7 @@
         "level":"65%"
       },
       {
-        "name":"HTML5",
+        "name":"HTML5 + CSS",
         "level":"80%"
       },
       {
