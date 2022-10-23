@@ -2,7 +2,7 @@
   "main": {
     "name":"Eric Natelson",
     "occupation":"Full Stack Software Engineer",
-    "description":"with a demonstrated history of working in the financial services industry",
+    "description":"with experience in e-commerce and the financial services industry",
     "description_two": "",
     "image": "profilepic.jpg",
     "bio":"Advid guitar player and Kiteboarder. Software development is a hobby and my job so please reach out if you are looking to collaborate on an idea!",
@@ -10,14 +10,24 @@
     "email": "natelsoneric@gmail.com",
     "phone": "7277989453",
     "address":{
-      "street":"544 SW 13th Ave, Fort Lauderdale FL, 33312",
-      "city":"Dallas",
-      "state":"Texas",
-      "zip": "75201"
+      "street":"544 SW 13th Ave",
+      "city":"Fort Lauderdale",
+      "state":"Florida",
+      "zip": "33312"
     },
     "website": "",
     "resumedownload":"https://www.linkedin.com/in/ericnatelson/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABq7_DEB_x04kHRPYYKSe4k0DAfanaDtFwY,1581900522648)/",
     "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ericnatelson",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/EricNatelson",
+        "className":"fa fa-github"
+      },
       {
         "name":"facebook",
         "url":"http://facebook.com/eric.natelson",
@@ -27,21 +37,6 @@
         "name":"twitter",
         "url":"http://twitter.com/Computer_Ric",
         "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/ericnatelson",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/EricNatelson",
-        "className":"fa fa-github"
       }
     ]
   },
