@@ -5,12 +5,12 @@
     "description":"with a demonstrated history of working in the financial services industry",
     "description_two": "",
     "image": "profilepic.jpg",
-    "bio":"Floridian transplant in Texas, I am a water sports and all things outdoors enthusiast. Coding is a hobby and my job so please reach out if you are looking to collaborate on an idea!",
+    "bio":"Advid guitar player and Kiteboarder. Software development is a hobby and my job so please reach out if you are looking to collaborate on an idea!",
     "contactmessage":"If you would like to chat you can reach me below",
     "email": "natelsoneric@gmail.com",
     "phone": "7277989453",
     "address":{
-      "street":"2650 Cedar Springs Rd.",
+      "street":"544 SW 13th Ave, Fort Lauderdale FL, 33312",
       "city":"Dallas",
       "state":"Texas",
       "zip": "75201"
@@ -57,10 +57,16 @@
     ],
     "work":[
       {
+        "company":"Chewy",
+        "title":"Software Engineer",
+        "years":"August 2021 - Present",
+        "description":"Building a modern experience for customer service agents to achieve Chewy standard levels of customer service on the frontend utilizing React + NextJS. I worked closely with a team of designers along with alpha, beta, and stable deployment user groups to get feedback on design, performance, and general well likeness and stability of the application."
+      },
+      {
         "company":"Fidelity Investments",
         "title":"Software Engineer Developer, Executive Reporting",
-        "years":"October 2020 - Present",
-        "description":"Currently building a dashboard that will give executive level leaders transparency and context into their agile, monetary, and other performance benchmarks for their objectives, kpi’s, and other initiatives. Users can navigate from the highest levels of company initiatives down to the individual squads that ultimately comprise said initiative. We utilize Angular on the frontend and interface with data engineers building out a Snowflake data lake to supply us with data from various sources. The app is deployed onto the Domo platform as a custom card"
+        "years":"October 2020 - August 2021",
+        "description":"Built a dashboard that will give executive level leaders transparency and context into their agile, monetary, and other performance benchmarks for their objectives, kpi’s, and other initiatives. Users can navigate from the highest levels of company initiatives down to the individual squads that ultimately comprise said initiative. We utilize Angular on the frontend and interface with data engineers building out a Snowflake data lake to supply us with data from various sources. The app is deployed onto the Domo platform as a custom card"
       },
       {
         "company":"Fidelity Investments",
@@ -93,7 +99,7 @@
     ],
     "skills":[
       {
-        "name":"Angular",
+        "name":"React",
         "level":"90%"
       },
       {
@@ -105,8 +111,8 @@
         "level":"65%"
       },
       {
-        "name":"React",
-        "level":"65%"
+        "name":"NextJS",
+        "level":"80%"
       },
       {
         "name":"HTML5 + CSS",
